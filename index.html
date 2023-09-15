@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky Morty</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+        <div class="wrap">
+           
+            <div class="characterContainer">
+                
+                
+                
+             
+            </div>
+            
+            <div class="filtericon" id="filtericon"><i class="fa-solid fa-filter fa-2xl"></i></div>
+
+
+
+
+
+            <div class="cardconteiner"><div class="card">
+
+          <div class="top2">
+                <div class="left1">
+            <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="">
+        </div>
+        <div class="right1">
+            <i class="fa-solid fa-xmark fa-2xl" id="close"></i>
+<div class="infoconteiner">
+
+    <div class="info"><h2>Імя:    Rick Sanchez</h2></div>
+    <div class="info"><h2>Статус:    Alive</h2></div>
+    <div class="info"><h2>Створено:    2017-11-04T18:48:46.250Z</h2></div>
+    <div class="info"><h2>Гендер:    Male</h2></div>
+    <div class="info"><h2>Планета:    Earth (C-137)</h2></div>
+    <div class="info"><h2>Вид:    Human</h2></div>
+</div>
+        </div>
+    </div>
+    </div>
+    
+            </div>
+        
+        
+        
+        
+        
+        </div>
+            <div class="pagination">
+                <button id="prewBtn">-</button>
+                <div id="pageNumber">1</div>
+                <button id="nextBtn">+</button>
+            </div>
+            <div class="filtercard">
+                <div class="top1"><h2>Фільтр</h2></div>
+                <div class="bottom1">
+                    <div class="filter" id="Species"><h3>вид</h3>
+                    <div class="OpenFilter" id="OpenSpecies">
+                        <h3>Human</h3>
+                        <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class="filter" id="status">Статус</div>
+                    <div class="OpenFilter" id="OpenStatus">
+                        <h3>Alive</h3>
+                        <input type="checkbox" id="Alive">
+                        <h3>Dead</h3>
+                        <input type="checkbox" id="Dead">
+                        <h3>unknown</h3>
+                        <input type="checkbox" id="unknown">
+                        </div>
+                    <div class="filter" id="sex">стать</div>
+                    <div class="OpenFilter" id="OpenSex">
+                        <h3>Female</h3>
+                        <input type="checkbox" id="Female">
+                        <h3>Male</h3>
+                        <input type="checkbox" id="Male">
+                        <h3>Genderless</h3>
+                        <input type="checkbox" id="Genderless">
+                        <h3>unknown</h3>
+                        <input type="checkbox" id="unknown">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
